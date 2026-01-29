@@ -1,0 +1,34 @@
+2026-01-30 00:07:27,367 - __main__ - INFO - Initializing AI Call Agent...
+2026-01-30 00:07:27,369 - core.health_check - INFO - Registered health check for ElevenLabs
+2026-01-30 00:07:27,370 - core.health_check - INFO - Registered health check for LLM
+2026-01-30 00:07:27,370 - loggers.sheets_logger - INFO - Google Sheets logger initialized (mock mode)
+2026-01-30 00:07:36,150 - services.llm_service - INFO - LLM: Generating response
+2026-01-30 00:07:36,152 - services.elevenlabs_service - INFO - ElevenLabs: Making text-to-speech request
+2026-01-30 00:07:50,733 - services.llm_service - INFO - LLM: Generating response
+2026-01-30 00:07:50,744 - services.elevenlabs_service - INFO - ElevenLabs: Simulating 503 error (call #1)
+2026-01-30 00:07:50,745 - core.retry_handler - WARNING - ElevenLabs: Transient error (attempt 1/3). Retrying in 5s... Error: [ElevenLabs] Service unavailable (503)
+2026-01-30 00:07:55,746 - services.elevenlabs_service - INFO - ElevenLabs: Simulating 503 error (call #2)
+2026-01-30 00:07:55,746 - core.retry_handler - WARNING - ElevenLabs: Transient error (attempt 2/3). Retrying in 10s... Error: [ElevenLabs] Service unavailable (503)
+2026-01-30 00:08:05,748 - services.elevenlabs_service - INFO - ElevenLabs: Simulating 503 error (call #3)
+2026-01-30 00:08:05,748 - core.retry_handler - ERROR - ElevenLabs: Max retries (3) exceeded
+2026-01-30 00:08:05,772 - alerts.webhook_alert - INFO - Webhook alert sent to https://your-webhook-url.com/alerts
+2026-01-30 00:08:05,774 - __main__ - WARNING - Graceful degradation: Skipping call to Test Contact (503 Simulation)
+2026-01-30 00:08:36,931 - services.llm_service - INFO - LLM: Generating response
+2026-01-30 00:08:36,933 - services.elevenlabs_service - INFO - ElevenLabs: Making text-to-speech request
+2026-01-30 00:08:50,920 - core.circuit_breaker - INFO - ElevenLabs: Circuit breaker manually reset
+2026-01-30 00:08:50,921 - core.circuit_breaker - INFO - LLM: Circuit breaker manually reset
+2026-01-30 00:09:03,086 - core.circuit_breaker - INFO - ElevenLabs: Circuit breaker manually reset
+2026-01-30 00:09:03,087 - core.circuit_breaker - INFO - LLM: Circuit breaker manually reset
+2026-01-30 00:09:03,088 - services.llm_service - INFO - LLM: Generating response
+2026-01-30 00:09:03,089 - services.elevenlabs_service - INFO - ElevenLabs: Simulating 503 error (call #1)
+2026-01-30 00:09:03,090 - core.retry_handler - WARNING - ElevenLabs: Transient error (attempt 1/3). Retrying in 5s... Error: [ElevenLabs] Service unavailable (503)
+2026-01-30 00:09:08,091 - services.elevenlabs_service - INFO - ElevenLabs: Simulating 503 error (call #2)
+2026-01-30 00:09:08,091 - core.retry_handler - WARNING - ElevenLabs: Transient error (attempt 2/3). Retrying in 10s... Error: [ElevenLabs] Service unavailable (503)
+2026-01-30 00:09:18,092 - services.elevenlabs_service - INFO - ElevenLabs: Simulating 503 error (call #3)
+2026-01-30 00:09:18,092 - core.retry_handler - ERROR - ElevenLabs: Max retries (3) exceeded
+2026-01-30 00:09:18,107 - alerts.webhook_alert - INFO - Webhook alert sent to https://your-webhook-url.com/alerts
+2026-01-30 00:09:18,107 - __main__ - WARNING - Graceful degradation: Skipping call to Alice Johnson
+2026-01-30 00:09:20,111 - services.llm_service - INFO - LLM: Generating response
+2026-01-30 00:09:20,112 - services.elevenlabs_service - INFO - ElevenLabs: Making text-to-speech request
+2026-01-30 00:09:22,116 - services.llm_service - INFO - LLM: Generating response
+2026-01-30 00:09:22,119 - services.elevenlabs_service - INFO - ElevenLabs: Making text-to-speech request

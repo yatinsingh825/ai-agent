@@ -1,0 +1,21 @@
+{"timestamp": "2026-01-29T23:59:20.435798", "service_name": "LLM", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "Call to LLM succeeded"}
+{"timestamp": "2026-01-29T23:59:35.439495", "service_name": "ElevenLabs", "error_category": "TRANSIENT_ERROR", "retry_count": 3, "circuit_breaker_state": "CLOSED", "message": "Transient error after 3 retries: [ElevenLabs] Service unavailable (503)"}
+{"timestamp": "2026-01-29T23:59:35.441659", "service_name": "CallAgent", "error_category": "CALL_FAILED", "retry_count": 0, "circuit_breaker_state": "N/A", "message": "Call to Contact 1 failed: [ElevenLabs] Service unavailable (503)"}
+{"timestamp": "2026-01-29T23:59:37.444435", "service_name": "LLM", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "Call to LLM succeeded"}
+{"timestamp": "2026-01-29T23:59:37.446442", "service_name": "ElevenLabs", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "Call to ElevenLabs succeeded"}
+{"timestamp": "2026-01-29T23:59:39.448104", "service_name": "LLM", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "Call to LLM succeeded"}
+{"timestamp": "2026-01-29T23:59:39.449182", "service_name": "ElevenLabs", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "Call to ElevenLabs succeeded"}
+{"timestamp": "2026-01-30T00:07:36.151947", "service_name": "LLM", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "LLM call succeeded"}
+{"timestamp": "2026-01-30T00:07:36.152954", "service_name": "ElevenLabs", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "ElevenLabs call succeeded"}
+{"timestamp": "2026-01-30T00:07:50.743554", "service_name": "LLM", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "LLM call succeeded"}
+{"timestamp": "2026-01-30T00:08:05.749204", "service_name": "ElevenLabs", "error_category": "TRANSIENT_ERROR", "retry_count": 3, "circuit_breaker_state": "CLOSED", "message": "Failed after 3 retry attempts: [ElevenLabs] Service unavailable (503)"}
+{"timestamp": "2026-01-30T00:08:05.774023", "service_name": "CallAgent", "error_category": "CALL_FAILED", "retry_count": 0, "circuit_breaker_state": "N/A", "message": "Call to Test Contact (503 Simulation) failed: ServiceUnavailableError - [ElevenLabs] Service unavailable (503)"}
+{"timestamp": "2026-01-30T00:08:36.932490", "service_name": "LLM", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "LLM call succeeded"}
+{"timestamp": "2026-01-30T00:08:36.933640", "service_name": "ElevenLabs", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "ElevenLabs call succeeded"}
+{"timestamp": "2026-01-30T00:09:03.088360", "service_name": "LLM", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "LLM call succeeded"}
+{"timestamp": "2026-01-30T00:09:18.093740", "service_name": "ElevenLabs", "error_category": "TRANSIENT_ERROR", "retry_count": 3, "circuit_breaker_state": "CLOSED", "message": "Failed after 3 retry attempts: [ElevenLabs] Service unavailable (503)"}
+{"timestamp": "2026-01-30T00:09:18.108193", "service_name": "CallAgent", "error_category": "CALL_FAILED", "retry_count": 0, "circuit_breaker_state": "N/A", "message": "Call to Alice Johnson failed: ServiceUnavailableError - [ElevenLabs] Service unavailable (503)"}
+{"timestamp": "2026-01-30T00:09:20.111346", "service_name": "LLM", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "LLM call succeeded"}
+{"timestamp": "2026-01-30T00:09:20.113496", "service_name": "ElevenLabs", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "ElevenLabs call succeeded"}
+{"timestamp": "2026-01-30T00:09:22.116390", "service_name": "LLM", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "LLM call succeeded"}
+{"timestamp": "2026-01-30T00:09:22.119793", "service_name": "ElevenLabs", "error_category": "SUCCESS", "retry_count": 0, "circuit_breaker_state": "CLOSED", "message": "ElevenLabs call succeeded"}
